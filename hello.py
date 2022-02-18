@@ -1,2 +1,3 @@
-name = input('Как вас зовут? ')
+name = input('Как вас зовут?')
+
 print('Привет', name)

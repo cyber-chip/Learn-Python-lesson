@@ -12,8 +12,8 @@ def get_summ(one, two, delimiter='&'):
     return str(one) + str(delimiter) + two
 a = 'Learn'
 b = 'python'
-sum_print = get_summ(one=a, two=b, delimiter='!')
-print(sum_print)
+summ_print = get_summ(one=a, two=b, delimiter='!')
+print(summ_print)
 
 #Задание 2
 #Создайте в редакторе файл price.py

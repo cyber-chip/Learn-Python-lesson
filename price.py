@@ -9,11 +9,16 @@
 
 def get_summ(one, two, delimiter='&'):
     two = str(two).upper()
-    return str(one) + str(delimiter) + two
+    summ = str(one) + str(delimiter) + str(two)
+    #return str(one) + str(delimiter) + two
+    return summ.upper()
+    
 a = 'Learn'
 b = 'python'
+#summ = str(one) + str(delimiter) + str(two)
 summ_print = get_summ(one=a, two=b, delimiter='!')
-print(summ_print)
+
+print('Задание 1: ' + summ_print)
 
 #Задание 2
 #Создайте в редакторе файл price.py
@@ -26,5 +31,5 @@ print(summ_print)
 def format_price(_jopa):
     print('Цена: {} руб.'.format(_jopa.round()))
 
-print_price = input('введите число 56.24: ')
+print_price = input('Задание 2: Введите число 56.24: ')
 print(format_price(print_price))
